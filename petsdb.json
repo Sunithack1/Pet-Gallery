@@ -1,0 +1,132 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "firstName": "Ace",
+      "dog": true,
+      "cat": false,
+      "favorite": false,
+      "bio": "Ace is a cockapoo who loves to play in a green field."
+    },
+    {
+      "id": 2,
+      "firstName": "Apollo",
+      "dog": true,
+      "cat": false,
+      "favorite": true,
+      "bio": "Apollo is a cute pup who loves to take naps."
+    },
+    {
+      "id": 3,
+      "firstName": "Bailey",
+      "dog": true,
+      "cat": false,
+      "favorite": false,
+      "bio": "Baily  is a Labrador, loves lounging around poolside and watching the family have fun."
+    },
+    {
+      "id": 4,
+      "firstName": "Bandit",      
+      "dog": true,
+      "cat": false,
+      "favorite": true,
+      "bio": "Bandit is a husky who loves to talk!"
+    },
+    {
+      "id": 5,
+      "firstName": "Baxter",      
+      "dog": true,
+      "cat": false,
+      "favorite": false,
+      "bio": "Baxter is a small pup who is curious about everything!"
+    },
+    {
+      "id": 6,
+      "firstName": "Bear",      
+      "dog": true,
+      "cat": false,
+      "favorite": true,
+      "bio": "Bear loves to go for walks"
+    },
+    {
+      "id": 7,
+      "firstName": "Toshi",      
+      "dog": true,
+      "cat": false,
+      "favorite": true,
+      "bio": "Toshi (black pug) wearing pilot jacket"
+    },
+    {
+      "id": 8,
+      "firstName": "Benji",      
+      "dog": true,
+      "cat": false,
+      "favorite": false,
+      "bio": "Benji is the most polite and sweet dog"
+    },
+    {
+      "id": 11,
+      "firstName": "Oliver",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Oliver - Give me food, human!"
+    },
+    {
+      "id": 12,
+      "firstName": "Leo",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Leo, the poser"
+    },
+    {
+      "id": 13,
+      "firstName": "Milo",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Milo, resting ont stairs"
+    },
+    {
+      "id": 14,
+      "firstName": "Charlie",      
+      "dog": false,
+      "cat": true,
+      "favorite": false,
+      "bio": "Charlie, mismerized by lights"
+    },
+    {
+      "id": 15,
+      "firstName": "Toby",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Toby, thinking about future"
+    },
+    {
+      "id": 16,
+      "firstName": "Rocky",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Lovely kitten Rocky"
+    },
+    {
+      "id": 17,
+      "firstName": "Zeus",      
+      "dog": false,
+      "cat": true,
+      "favorite": false,
+      "bio": "Zeus planning to attack camera while posing"
+    },
+    {
+      "id": 18,
+      "firstName": "Cooper",      
+      "dog": false,
+      "cat": true,
+      "favorite": true,
+      "bio": "Cooper asking for a treat"
+    }
+  ]
+}

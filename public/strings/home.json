@@ -1,0 +1,8 @@
+{
+    "homeDescription": "Adorable pet gallery is a small, random collection of photos of pets such as dogs and cats.  Photos can be viewed by navigating to Pets section. Photos can be viewed as follows-",
+    "option": {
+        "_1": "Select Dogs checkbox to view photos of dogs",
+        "_2": "Select Cats checkbox to view photos of cats",
+        "_3": "Select both checkboxes to view photos of both cats and dogs"
+    }
+}

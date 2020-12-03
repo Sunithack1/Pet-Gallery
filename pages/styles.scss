@@ -1,0 +1,21 @@
+.card {
+    display: flex;    
+    .pet-image {
+        object-fit: cover;
+        align-self: center;
+        padding-top: 5px;    
+        border-radius: 50%;    
+    }
+    
+    .black-and-white {
+        filter:grayscale(1);
+    }
+
+    .card-title {
+        text-align: center;
+    }
+}
+
+.card.image-info {
+    margin-bottom: 20px;
+}
