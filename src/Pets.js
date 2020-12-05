@@ -54,7 +54,7 @@ const Pets = ({}) => {
 
   if (hasErrored === true) return <div>Error: {error.message}</div>;
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <div>{petStrings.Loading}</div>;
 
   return (
     <div>
