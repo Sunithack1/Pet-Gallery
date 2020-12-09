@@ -97,6 +97,8 @@ const Pets = ({}) => {
                   key={petRec.id}
                   petRec={petRec}
                   onHeartFavoriteHandler={heartFavoriteHandler}
+                  dogsGallery={dogsGallery}
+                  catsGallery={catsGallery}
                 />
               );
             })}

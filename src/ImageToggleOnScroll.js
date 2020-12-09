@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classnames from 'classNames';
 
-const ImageToggleOnScroll = ({ primaryImg }) => {
+const ImageToggleOnScroll = ({ primaryImg, dogsGallery, catsGallery, imageName }) => {
   const imageRef = useRef(null);
 
   const [isLoading, setIsLoading] = useState(true);
@@ -20,7 +20,7 @@ const ImageToggleOnScroll = ({ primaryImg }) => {
     return () => {
       window.removeEventListener('scroll', scrollHandler);
     };
-  }, []);
+  }, [dogsGallery, catsGallery]);
 
   const scrollHandler = () => {
     setInView(isInView());
@@ -33,7 +33,7 @@ const ImageToggleOnScroll = ({ primaryImg }) => {
           ? 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=='
           : primaryImg
       }
-      alt=""
+      alt={imageName}
       ref={imageRef}
       width="200"
       height="200"

@@ -1,6 +1,6 @@
 import ImageToggleOnScroll from './ImageToggleOnScroll';
 
-const PetDetail = React.memo(({ petRec, onHeartFavoriteHandler }) => {
+const PetDetail = React.memo(({ petRec, onHeartFavoriteHandler, dogsGallery, catsGallery }) => {
   const { id, firstName, bio, favorite } = petRec;
 
   return (
@@ -8,7 +8,9 @@ const PetDetail = React.memo(({ petRec, onHeartFavoriteHandler }) => {
       <ImageToggleOnScroll
         className="card-img-top"
         primaryImg={`/static/pets/pet-${id}.jpg`}        
-        alt="{firstName} {lastName}"
+        imageName={firstName}
+        dogsGallery={dogsGallery}
+        catsGallery={catsGallery}
       />
       <div className="card-body">
         <h4 className="card-title">
