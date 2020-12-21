@@ -1,9 +1,7 @@
 # Pet-Gallery
------------------------------------------------------------------------------------------------
 App created using Next JS, React hooks, Node JS, JSON server, Sass, Bootstrap
 
 ## Running this app locally:
-------------------------------------------------------------------------------------------------
 1. Install Nodejs
 2. Clone this repository
 3. Navigate to the root of the folder (where package.json exists) and follow below steps - 
